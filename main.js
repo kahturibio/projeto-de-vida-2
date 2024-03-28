@@ -19,4 +19,8 @@ const contadores = document.querySelectorAll(".contador");
 
 let tempoAtual = new Date(); //retorna data atual do computador
 const tempoObjetivo1 = new Date("2024-05-31T00:00:00");
-contadores[0].textContent = tempoObjetivo1 - tempoAtual; 
+contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+
+let tempoAtual = new Date(); //retorna a data atual do computador
+const tempoObjetivo2 = new Date("2024-05-31T00:00:00:00");
+contadores[0].textContent = tempoObjetivo2 - tempoAtual;
