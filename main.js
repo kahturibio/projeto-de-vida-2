@@ -18,9 +18,13 @@ for (let i = 0; i < botoes.length; i++) {
 const contadores = document.querySelectorAll(".contador");
 
 let tempoAtual = new Date(); //retorna data atual do computador
-const tempoObjetivo1 = new Date("2024-05-31T00:00:00");
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+const tempoObjetivo1 = new Date("2024-05-03T00:00:00");
+let tempoFinal = tempoObjetivo1 - tempoAtual;
 
-let tempoAtual = new Date(); //retorna a data atual do computador
-const tempoObjetivo2 = new Date("2024-05-31T00:00:00:00");
-contadores[0].textContent = tempoObjetivo2 - tempoAtual;
+let segundos = tempoFinal / 1000;
+let minutos = segundos / 60;
+let horas = minutos / 60;
+let dias = horas / 24;
+console.log(segundos);
+
+
