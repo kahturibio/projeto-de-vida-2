@@ -26,5 +26,6 @@ segundos %= 60;
 minutos %= 60;
 horas %= 24;
 
+contadores[0].textContent = dias + " Dias " + horas + " Horas " + minutos + " minutos " + segundos + " segundos "
 
 
