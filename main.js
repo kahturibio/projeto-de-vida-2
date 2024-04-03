@@ -30,7 +30,6 @@ horas %= 24;
 return dias + " Dias " + horas + " Horas " + minutos + " minutos " + segundos + " segundos "
 
 }
-
-contadores[0].textContent = 
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
 
