@@ -14,10 +14,10 @@ for (let i = 0; i < botoes.length; i++) {
 }
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-04-19T00:00:00"); // formato de data padrao com hifem e um T para tempo
+const tempoObjetivo1 = new Date("2024-05-29T00:00:00"); // formato de data padrao com hifem e um T para tempo
 const tempoObjetivo2 = new Date("2024-07-07T00:00:00");
-const tempoObjetivo3 = new Date("2024-04-27T00:00:00");
-const tempoObjetivo4 = new Date("2024-04-23T00:00:00");
+const tempoObjetivo3 = new Date("2024-07-01T00:00:00");
+const tempoObjetivo4 = new Date("2024-12-31T00:00:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
